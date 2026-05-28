@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-26 11:14:25 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVMS1JUVlY7MjAyNi0wNS0yNjsxMTowNDo1OCBQTTszNDAz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVMS1JUVlY7MjAyNi0wNS0yNjsxMToxNDoyNSBQTTsxOzM1MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="circumference" type="Real" array="False" size=""/>
+            <output expression="&quot;length of rectangle:&quot;" newline="True"/>
+            <input variable="length"/>
+            <output expression="&quot;width of rectangle:&quot;" newline="True"/>
+            <input variable="width"/>
+            <assign variable="area" expression="length*width"/>
+            <output expression="&quot;The area is: &quot; &amp; area" newline="True"/>
+            <assign variable="circumference" expression="(2*length)+(2*width)"/>
+            <output expression="&quot;The circumference is: &quot; &amp; circumference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

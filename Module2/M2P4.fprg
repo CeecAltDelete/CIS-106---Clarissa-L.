@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-05-26 11:30:15 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVMS1JUVlY7MjAyNi0wNS0yNjsxMToxNDo1MiBQTTszMzk4"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVMS1JUVlY7MjAyNi0wNS0yNjsxMTozMDoxNSBQTTsxOzM1MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="credithours" type="Real" array="False" size=""/>
+            <declare name="labfee" type="Real" array="False" size=""/>
+            <declare name="tuition" type="Real" array="False" size=""/>
+            <declare name="totaltuition" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter your last name: &quot;" newline="True"/>
+            <input variable="lastname"/>
+            <output expression="&quot;Please enter credit hours: &quot;" newline="True"/>
+            <input variable="credithours"/>
+            <output expression="&quot;Please note the additional $100 lab fee. &quot;" newline="True"/>
+            <assign variable="tuition" expression="250"/>
+            <assign variable="labfee" expression="100"/>
+            <assign variable="totaltuition" expression="credithours*tuition+labfee"/>
+            <output expression="lastname&amp; &quot;- Your total tuition per credit hours is $&quot; &amp; totaltuition" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
