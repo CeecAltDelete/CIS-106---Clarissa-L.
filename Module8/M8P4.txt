@@ -1,0 +1,6 @@
+Widget
+10
+50
+Hammer
+2
+10
